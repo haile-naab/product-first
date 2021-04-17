@@ -18,11 +18,13 @@
 
 
 import React from 'react';
-import PersonForm from '../components/productForm';
+import ProductList from './../components/productList';
+import ProductForm from './../components/productForm';
 const Main = () => {
     return (
         <div>
-           <PersonForm/>
+           <ProductForm  />
+           <ProductList  />
         </div>
     )
 }
